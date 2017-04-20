@@ -1,0 +1,84 @@
+.body {
+  margin: auto;
+  width: 75%;
+  min-width: 925px;
+}
+.logo {
+  right: 20px;
+  position: fixed;
+}
+
+header {
+  margin:  60px 60px 10px 60px;
+  border-bottom: solid;
+  border-color: gray;
+  border-width: 2px;
+}
+
+.headerinfo {
+
+}
+
+.headerlinks {
+  font-size: 24px;
+  margin-left: 20px;
+  margin-top: 40px;
+  color: gray;
+  width: auto;
+  display: inline-block;
+}
+
+.headerlinks:hover {
+  color: red; /* controls color of links when you mouse over */
+}
+
+.subhead {
+  float: right;
+  margin: 0px 60px;
+  padding-right: 20px;
+  font-size: 16px;
+}
+
+.title {
+  width: 300px;
+  display: inline-block;
+  color: red;
+  font-size: 40px;
+  float: right;
+}
+
+p {
+  display: inline;
+}
+
+.portfolio {
+  margin: 60px;
+}
+
+.artwork {
+  width: 400px;
+  height: 300px;
+  padding: 5px;
+}
+
+footer {
+  height: 50px;
+  border-top: solid;
+  border-top-color: rgba(201, 201, 201, 0.5);
+  border-width: 1px;
+  margin: 0px 60px;
+}
+
+.copyright {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.gylogo {
+height: auto;
+width: 71px;
+}
+
+.line {
+  padding: 0px 10px 0px 10px;
+}
