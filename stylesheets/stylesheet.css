@@ -1,8 +1,26 @@
 .body {
   margin: auto;
-  width: 75%;
   min-width: 925px;
+  max-width: 1330px;
 }
+
+.text {
+  min-width: 400px;
+  max-width: 800px;
+}
+
+@media (max-width: 1329px) {
+.body {
+  width: 925px;
+}
+}
+
+@@media (max-width: 799px) {
+.text {
+  width: 400px;
+}
+}
+
 .logo {
   right: 20px;
   position: fixed;
@@ -55,10 +73,86 @@ p {
   margin: 60px;
 }
 
+/* The code below controls the size of the artwork */
 .artwork {
   width: 400px;
   height: 300px;
   padding: 5px;
+}
+
+/* The code below controls the size of the prints */
+.prints {
+  width: 400px;
+  height: 300px;
+  padding: 5px;
+}
+
+/* The code below controls the size of the aboutme page image */
+.aboutmeimage {
+  width: 400px;
+  height: 600px;
+  margin-left: 20px;
+  display: inline;
+}
+
+.about {
+  width: auto;
+  height: 600px;
+  position: absolute;
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px 40px;
+}
+
+/* The code below controls the size of the contact page image */
+.contactimage {
+  width: 400px;
+  height: 600px;
+  margin-left: 20px;
+  display: inline;
+}
+
+.contact {
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  display: inline-block;
+  font-size: 14px;
+  padding: 20px 40px;
+}
+
+.fields {
+  margin-top: 40px;
+}
+
+.socialmedia {
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px 40px;
+  margin-top: 300px;
+}
+
+.facebook {
+  height: 50px;
+  width: 50px;
+  background-image: url(social-icons.jpg);
+  background-position: 0px 0px;
+  margin-top: 0px;
+  margin-left: 10px;
+  padding: 0px 0px 30px 50px;
+}
+
+.twitter {
+  height: 50px;
+  width: 50px;
+  background-image: url(social-icons.jpg);
+  background-position: -50px 0px;
+  margin-top: 0px;
+  margin-left: 10px;
+  padding: 0px 0px 30px 50px;
 }
 
 footer {
@@ -66,7 +160,7 @@ footer {
   border-top: solid;
   border-top-color: rgba(201, 201, 201, 0.5);
   border-width: 1px;
-  margin: 0px 60px;
+  margin: 60px 60px;
 }
 
 .copyright {
